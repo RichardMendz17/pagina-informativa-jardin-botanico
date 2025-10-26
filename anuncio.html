@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oisca México</title>
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <a href="/">
+                    <h1>OISCA MÉXICO</h1>
+                </a>
+
+                <div class="mobile-menu">
+                    <img src="build/img/barras.svg" alt="Menu responsive">
+                </div>
+                <div class="derecha" >
+                    <nav class="navegacion">
+                        <a href="conocenos.html">Conócenos</a>
+                        <a href="proyectos.html">Proyectos</a>
+                        <a href="noticias-eventos.html">Noticias y Eventos</a>
+                        <a href="catalogo-plantas-nativas.html">Catálogo de Plantas Nativas</a>
+                    </nav>
+                </div>
+
+            </div> <!-- Cierre de la .barra -->
+        </div>
+    </header>    
+
+
+    <main class="contenedor seccion contenido-centrado">
+        <h1>Casa en Venta frente al bosque</h1>
+        <picture>
+            <source srcset="build/img/destacada.webp" type="image/webp">
+            <source srcset="build/img/destacada.jpg" type="image/jpeg">
+            <img loading="lazy" src="build/img/destacada.jpg" alt="Imagen de la propiedad">
+        </picture>
+        <div class="resumen-propiedad">
+            <p class="precio">$3,000,000</p>
+            <ul class="iconos-caracteristicas">
+                <li>
+                    <img  class="icono" loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
+                    <p>3</p>
+                </li>
+
+                <li>
+                    <img class="icono"  loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento">
+                    <p>3</p>
+                </li>
+
+                <li>
+                    <img  class="icono" loading="lazy" src="build/img/icono_dormitorio.svg" alt="icono dormitorio">
+                    <p>4</p>
+                </li>
+            </ul>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo aliquam vero similique id labore velit impedit dolores, culpa perspiciatis? Praesentium officiis itaque reiciendis eos neque provident earum aliquid cumque voluptas. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis fugiat exercitationem reprehenderit consequuntur, ab voluptatum recusandae laudantium quibusdam ducimus voluptates ipsum, perferendis aliquam, quasi ut repellat perspiciatis repellendus vitae nam!</p>
+        </div>
+    </main>
+
+    <footer class="footer seccion">
+        <div class="contenedor contenedor-footer">
+            <nav class="navegacion">
+                <a href="conocenos.html">Conócenos</a>
+                <a href="proyectos.html">Proyectos</a>
+                <a href="noticias-eventos.html">Noticias y Eventos</a>
+                <a href="catalogo-plantas-nativas.html">Catálogo de Plantas Nativas</a>
+            </nav>
+        </div>
+
+        <p class="copyright">Todos los derechos Reservados 2025 &copy;</p>
+    </footer>
+
+    <script src="build/js/bundle.min.js"></script>
+</body>
+</html>
